@@ -25,3 +25,7 @@ Idees de projet:
 - jeu de platforme en 2D profil ou il faut atteindre la sortie
 - runner
 - tetris ou le mec doit eviter les elements qui tombe, il pourra monter sur les elements deja en place, mode 2 joueurs possible en versus si l'autre joueur joue au tetris normalement ou mode coop si le mec dans le jeu peu casser des bout de block pour les ajuster
+
+
+Documentation:
+-bibliotheque graphique c++: SFML
