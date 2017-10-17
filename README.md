@@ -28,4 +28,13 @@ Idees de projet:
 
 
 Documentation:
--bibliotheque graphique c++: SFML
+-bibliotheque graphique c++: SFML, Allegro 5, SDL
+
+Ressources:
+- UML : http://laurent-audibert.developpez.com/Cours-UML/?page=diagramme-classes
+- Suivi projet jeu : https://jeux.developpez.com/tutoriels/jeux-video/
+- Diagramme à exploiter : https://www.developpez.net/forums/d1507802/applications/developpement-2d-3d-jeux/conception-uml-d-jeu-video/
+- Tuto installation de bibliotheque en c++ : http://alexandre-laurent.developpez.com/tutoriels/c-cpp/installation-et-configuration-d-une-bibliotheque/
+- theorie des collisions : https://jeux.developpez.com/tutoriels/theorie-des-collisions/#page_articles_2d
+
+
