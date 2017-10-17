@@ -1,0 +1,6 @@
+17/10/2017:
+    - choice of the type of game : 2D game platforme with lateral view
+    - Language development : C++
+    - Graphical Library : SFML
+    - Idea of differents defined stages (randum) pasted  between them by a saml animation : a door for example.
+    - start UML : reflect about Entity, Personnage, Enemy, Decors class.
