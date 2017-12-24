@@ -4,7 +4,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>552</x>
-      <y>88</y>
+      <y>0</y>
       <w>168</w>
       <h>152</h>
     </coordinates>
@@ -24,7 +24,7 @@ Objet
     <id>UMLClass</id>
     <coordinates>
       <x>352</x>
-      <y>344</y>
+      <y>256</y>
       <w>176</w>
       <h>152</h>
     </coordinates>
@@ -41,7 +41,7 @@ Entity
     <id>UMLClass</id>
     <coordinates>
       <x>872</x>
-      <y>320</y>
+      <y>232</y>
       <w>168</w>
       <h>152</h>
     </coordinates>
@@ -57,7 +57,7 @@ Decors
     <id>Relation</id>
     <coordinates>
       <x>712</x>
-      <y>184</y>
+      <y>96</y>
       <w>216</w>
       <h>152</h>
     </coordinates>
@@ -68,7 +68,7 @@ Decors
     <id>Relation</id>
     <coordinates>
       <x>464</x>
-      <y>232</y>
+      <y>144</y>
       <w>120</w>
       <h>128</h>
     </coordinates>
@@ -79,22 +79,28 @@ Decors
     <id>UMLClass</id>
     <coordinates>
       <x>592</x>
-      <y>592</y>
-      <w>168</w>
+      <y>504</y>
+      <w>224</w>
       <h>152</h>
     </coordinates>
     <panel_attributes>Enemy
 --
-- Friendly = false
+- Friendly:boolean{default = false}
+- stats: Stats
+- direction : Direction
+- projectile: Projectile
 --
-+ Enemy()</panel_attributes>
++ Enemy()
++ move(direction):void
++ takeDammage(dammage: int):void
++ shoot(): projectile</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>496</x>
-      <y>488</y>
+      <y>400</y>
       <w>208</w>
       <h>120</h>
     </coordinates>
@@ -104,23 +110,30 @@ Decors
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>120</x>
-      <y>648</y>
-      <w>168</w>
+      <x>48</x>
+      <y>560</y>
+      <w>240</w>
       <h>152</h>
     </coordinates>
     <panel_attributes>Personnage
 --
-- Friendly = true
+- Friendly: boolean {default = true }
+- stats: Stats
+- direction : Direction
+- projectile : Projectile
 --
-+ Personnage</panel_attributes>
++ Personnage()
++ move(direction):void
++ takeDammage(dammage: int): void
++ shoot() : projectile
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>224</x>
-      <y>488</y>
+      <y>400</y>
       <w>168</w>
       <h>176</h>
     </coordinates>
@@ -131,7 +144,7 @@ Decors
     <id>UMLClass</id>
     <coordinates>
       <x>360</x>
-      <y>632</y>
+      <y>544</y>
       <w>168</w>
       <h>152</h>
     </coordinates>
@@ -148,7 +161,7 @@ Decors
     <id>UMLClass</id>
     <coordinates>
       <x>0</x>
-      <y>384</y>
+      <y>296</y>
       <w>168</w>
       <h>152</h>
     </coordinates>
@@ -163,7 +176,7 @@ Decors
     <id>Relation</id>
     <coordinates>
       <x>160</x>
-      <y>424</y>
+      <y>336</y>
       <w>208</w>
       <h>64</h>
     </coordinates>
@@ -174,7 +187,7 @@ Decors
     <id>Relation</id>
     <coordinates>
       <x>88</x>
-      <y>528</y>
+      <y>440</y>
       <w>120</w>
       <h>136</h>
     </coordinates>
@@ -186,7 +199,7 @@ Decors
     <id>Relation</id>
     <coordinates>
       <x>160</x>
-      <y>504</y>
+      <y>416</y>
       <w>448</w>
       <h>120</h>
     </coordinates>
@@ -198,7 +211,7 @@ Decors
     <id>UMLClass</id>
     <coordinates>
       <x>144</x>
-      <y>104</y>
+      <y>16</y>
       <w>168</w>
       <h>152</h>
     </coordinates>
@@ -215,7 +228,7 @@ DROITE</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>248</x>
-      <y>248</y>
+      <y>160</y>
       <w>120</w>
       <h>152</h>
     </coordinates>
@@ -226,8 +239,8 @@ DROITE</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1032</x>
-      <y>576</y>
+      <x>1080</x>
+      <y>480</y>
       <w>168</w>
       <h>152</h>
     </coordinates>
@@ -241,8 +254,8 @@ DROITE</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>808</x>
-      <y>584</y>
+      <x>848</x>
+      <y>480</y>
       <w>168</w>
       <h>152</h>
     </coordinates>
@@ -257,29 +270,29 @@ DROITE</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>888</x>
-      <y>464</y>
-      <w>32</w>
-      <h>136</h>
+      <y>376</y>
+      <w>72</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;20.0;150.0</additional_attributes>
+    <additional_attributes>10.0;10.0;70.0;130.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>968</x>
-      <y>464</y>
-      <w>136</w>
-      <h>128</h>
+      <x>1008</x>
+      <y>376</y>
+      <w>144</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;150.0;140.0</additional_attributes>
+    <additional_attributes>10.0;10.0;160.0;130.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>280</x>
-      <y>712</y>
+      <y>600</y>
       <w>96</w>
       <h>32</h>
     </coordinates>
@@ -291,7 +304,7 @@ DROITE</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>520</x>
-      <y>704</y>
+      <y>600</y>
       <w>88</w>
       <h>32</h>
     </coordinates>
