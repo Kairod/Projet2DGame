@@ -7,12 +7,14 @@
 
 
 #include "Object.h"
+#include "Direction.h"
 
 class Entity : Object{
 
     protected:
         bool userControl;
         bool friendly;
+        Direction direction;
 
     public:
         Entity();

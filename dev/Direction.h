@@ -6,10 +6,11 @@
 #define DEV_DIRECTION_H
 
 
-class Direction {
-    private:
-        static enum direction {UP,RIGHT,DOWN,LEFT};
+enum class Direction {
+    UP,
+    RIGHT,
+    DOWN,
+    LEFT
 };
-
 
 #endif //DEV_DIRECTION_H
