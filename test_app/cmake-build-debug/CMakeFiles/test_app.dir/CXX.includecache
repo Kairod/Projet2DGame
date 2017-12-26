@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kairod/github/Projet2DGame/test_app/main.cpp
+iostream
+-
+SFML/Graphics.hpp
+-
+SFML/System.hpp
+-
+
