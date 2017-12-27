@@ -1,0 +1,15 @@
+all: sfml-app
+
+#####
+# INFORMATIONS #
+
+# Puis, vous devez lier le fichier compilé aux bibliothèques SFML afin de produire l'exécutable final. SFML est composée de 5 modules (système, fenêtrage, graphique, réseau et audio), et il y a une bibliothèque pour chacun.
+
+# Pour lier une bibliothèque SFML, vous devez ajouter "-lsfml-xxx" à votre ligne de commande, par exemple "-lsfml-graphics" pour le module graphique (par rapport au nom du fichier correspondant, le préfixe "lib" et l'extension ".so" doivent être omis). 
+######
+
+sfml-app: main.o
+    g++ main.o -o sfml-app -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio -lsfml-network
+
+main.o: main.cpp main-prototypes.h
+    g++ -c main.cpp
