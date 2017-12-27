@@ -3,19 +3,20 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>552</x>
-      <y>0</y>
-      <w>168</w>
-      <h>152</h>
+      <x>624</x>
+      <y>16</y>
+      <w>216</w>
+      <h>136</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Abstract&gt;&gt;
-Objet
+Element
 --
-- Position2D
-- sprit
-- boxCollision
+# x, y: float
+# collisionBox
 --
 + Objet()
++ draw()
+/+ takeDamage(damage: int): void/
 
 </panel_attributes>
     <additional_attributes/>
@@ -23,24 +24,27 @@ Objet
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>352</x>
+      <x>424</x>
       <y>256</y>
-      <w>176</w>
+      <w>408</w>
       <h>152</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Abstract&gt;&gt;
 Entity
 --
-- UserControl : boolean
-- Friendly : boolean
+# dx, dy : float
+# direction : Direction 
+# friendly : bool
 --
-+ Entity()</panel_attributes>
++ Entity()
++ setSettings(out a: Animation, x: int, y: int, direction: Direction): void
+/+ update(): void/</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>872</x>
+      <x>944</x>
       <y>232</y>
       <w>168</w>
       <h>152</h>
@@ -48,26 +52,26 @@ Entity
     <panel_attributes>&lt;&lt;Abstract&gt;&gt;
 Decors
 --
-- destruct : boolean
+- isDestructable : boolean {default = false}
 --
-+ CDecors</panel_attributes>
++ Decors()</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>712</x>
+      <x>832</x>
       <y>96</y>
-      <w>216</w>
+      <w>168</w>
       <h>152</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;250.0;170.0</additional_attributes>
+    <additional_attributes>10.0;10.0;190.0;170.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>464</x>
+      <x>536</x>
       <y>144</y>
       <w>120</w>
       <h>128</h>
@@ -78,53 +82,48 @@ Decors
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>592</x>
-      <y>504</y>
+      <x>632</x>
+      <y>656</y>
       <w>224</w>
       <h>152</h>
     </coordinates>
-    <panel_attributes>Enemy
+    <panel_attributes>&lt;&lt;Abstract&gt;&gt;
+Enemy
 --
-- Friendly:boolean{default = false}
 - stats: Stats
 - direction : Direction
 - projectile: Projectile
 --
 + Enemy()
-+ move(direction):void
-+ takeDammage(dammage: int):void
 + shoot(): projectile</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>496</x>
+      <x>568</x>
       <y>400</y>
-      <w>208</w>
-      <h>120</h>
+      <w>176</w>
+      <h>272</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;240.0;130.0</additional_attributes>
+    <additional_attributes>10.0;10.0;200.0;320.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>48</x>
-      <y>560</y>
+      <y>600</y>
       <w>240</w>
       <h>152</h>
     </coordinates>
     <panel_attributes>Personnage
 --
-- Friendly: boolean {default = true }
 - stats: Stats
-- direction : Direction
-- projectile : Projectile
 --
 + Personnage()
-+ move(direction):void
-+ takeDammage(dammage: int): void
++ takeDamage(damage: int): void
++ update(): void
 + shoot() : projectile
 </panel_attributes>
     <additional_attributes/>
@@ -134,24 +133,24 @@ Decors
     <coordinates>
       <x>224</x>
       <y>400</y>
-      <w>168</w>
-      <h>176</h>
+      <w>240</w>
+      <h>216</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>190.0;10.0;10.0;200.0</additional_attributes>
+    <additional_attributes>280.0;10.0;10.0;250.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>360</x>
-      <y>544</y>
+      <x>376</x>
+      <y>728</y>
       <w>168</w>
       <h>152</h>
     </coordinates>
     <panel_attributes>Stats
 --
-- pointsDeVie : int
-- moveSpeed : int
+- pointsDeVie: int
+- moveSpeed: float
 --
 + Stats()
 </panel_attributes>
@@ -161,59 +160,61 @@ Decors
     <id>UMLClass</id>
     <coordinates>
       <x>0</x>
-      <y>296</y>
-      <w>168</w>
+      <y>288</y>
+      <w>208</w>
       <h>152</h>
     </coordinates>
     <panel_attributes>Projectile
 --
 - degats : int
 --
-+ Projectile()</panel_attributes>
++ Projectile()
++ takeDamage(damage: int): void
++ update(): void</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
+      <x>200</x>
       <y>336</y>
-      <w>208</w>
-      <h>64</h>
+      <w>240</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>240.0;10.0;10.0;60.0</additional_attributes>
+    <additional_attributes>280.0;10.0;10.0;50.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>88</x>
-      <y>440</y>
-      <w>120</w>
-      <h>136</h>
+      <x>96</x>
+      <y>432</y>
+      <w>128</w>
+      <h>184</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-&lt;&lt;instanceOf&gt;&gt;</panel_attributes>
-    <additional_attributes>80.0;150.0;10.0;10.0</additional_attributes>
+&lt;&lt;instanciate&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;80.0;210.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>160</x>
-      <y>416</y>
-      <w>448</w>
-      <h>120</h>
+      <x>8</x>
+      <y>432</y>
+      <w>720</w>
+      <h>696</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-&lt;&lt;instanceOf&gt;&gt;</panel_attributes>
-    <additional_attributes>540.0;130.0;270.0;60.0;10.0;10.0</additional_attributes>
+&lt;&lt;instanciate&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;850.0;880.0;850.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>144</x>
-      <y>16</y>
+      <x>216</x>
+      <y>56</y>
       <w>168</w>
-      <h>152</h>
+      <h>112</h>
     </coordinates>
     <panel_attributes>&lt;&lt;enum&gt;&gt;
 Direction
@@ -227,7 +228,7 @@ DROITE</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>248</x>
+      <x>320</x>
       <y>160</y>
       <w>120</w>
       <h>152</h>
@@ -239,77 +240,260 @@ DROITE</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1080</x>
+      <x>1280</x>
       <y>480</y>
       <w>168</w>
-      <h>152</h>
+      <h>72</h>
     </coordinates>
-    <panel_attributes>Destructible
+    <panel_attributes>DestructableDecor
 --
+- life: int
 --
-+ Destructible
++ DestructableDecor()
++ takeDamage(damage: int):
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>848</x>
+      <x>1064</x>
       <y>480</y>
       <w>168</w>
-      <h>152</h>
+      <h>64</h>
     </coordinates>
-    <panel_attributes>Indestructible
+    <panel_attributes>IndestructableDecor
 --
-- life : int
 --
-+ Indestructible</panel_attributes>
++ IndestructableDecor()</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>888</x>
+      <x>1048</x>
       <y>376</y>
-      <w>72</w>
+      <w>64</w>
       <h>120</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;70.0;130.0</additional_attributes>
+    <additional_attributes>10.0;10.0;60.0;130.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1008</x>
-      <y>376</y>
-      <w>144</w>
-      <h>120</h>
+      <x>1104</x>
+      <y>344</y>
+      <w>248</w>
+      <h>152</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;160.0;130.0</additional_attributes>
+    <additional_attributes>10.0;10.0;290.0;170.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>280</x>
-      <y>600</y>
-      <w>96</w>
-      <h>32</h>
+      <y>648</y>
+      <w>112</w>
+      <h>168</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 - stat</panel_attributes>
-    <additional_attributes>10.0;20.0;100.0;20.0</additional_attributes>
+    <additional_attributes>10.0;10.0;120.0;190.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>520</x>
-      <y>600</y>
-      <w>88</w>
-      <h>32</h>
+      <x>536</x>
+      <y>760</y>
+      <w>112</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 - stat</panel_attributes>
-    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+    <additional_attributes>120.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>896</x>
+      <y>560</y>
+      <w>168</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Abstract&gt;&gt;
+MoveableDecor
+--
+--
++ MoveableDecor</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>720</x>
+      <y>400</y>
+      <w>216</w>
+      <h>176</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;250.0;200.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>952</x>
+      <y>376</y>
+      <w>64</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;10.0;230.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>936</x>
+      <y>808</y>
+      <w>200</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>MoveDestructDecor
+--
+- life: int
+--
++ MoveDestructDecor()
++ takeDamage(damage: int): void
++ update(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1168</x>
+      <y>808</y>
+      <w>200</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>MoveIndestructDecor
+--
+
+--
++ MoveIndestructDecor()
++ takeDamage(damage: int): void
++ update(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>968</x>
+      <y>704</y>
+      <w>88</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;90.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1024</x>
+      <y>704</y>
+      <w>224</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;260.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>440</x>
+      <y>928</y>
+      <w>224</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>Fighter
+--
+
+--
++ Fighter()
++ takeDamage(damage: int): void
++ update(): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>712</x>
+      <y>984</y>
+      <w>224</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>Shooter
+--
+- projectile: Projectile
+--
++ Shooter()
++ takeDamage(damage: int): void
++ update(): void
++ shoot(): projectile</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>768</x>
+      <y>800</y>
+      <w>64</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;230.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>800</y>
+      <w>112</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>120.0;10.0;10.0;160.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1104</x>
+      <y>16</y>
+      <w>496</w>
+      <h>136</h>
+    </coordinates>
+    <panel_attributes>Animation
+--
+- frame: float
+- speed: float
+- sprite: Sprite
+- frames: Vector&lt;IntRect&gt;
+--
++ Animation(out t: Texture, x: int, y: int, width: int, height: int, count: int, speed: float)
++ update():void
++ isEnd(): bool</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>832</x>
+      <y>56</y>
+      <w>288</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+# animation</panel_attributes>
+    <additional_attributes>10.0;20.0;340.0;20.0</additional_attributes>
   </element>
 </diagram>
