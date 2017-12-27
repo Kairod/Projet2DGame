@@ -6,12 +6,13 @@
       <x>160</x>
       <y>130</y>
       <w>520</w>
-      <h>190</h>
+      <h>210</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Abstract&gt;&gt;
 Entity
 --
 # x, y, dx, dy : float
+# R, angle : float
 # life : bool
 # name : String
 # anim : Animation
@@ -94,37 +95,37 @@ Entity
     <id>Relation</id>
     <coordinates>
       <x>410</x>
-      <y>310</y>
+      <y>330</y>
       <w>30</w>
-      <h>200</h>
+      <h>180</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-
 </panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;180.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;160.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>160</x>
-      <y>310</y>
+      <y>330</y>
       <w>60</w>
-      <h>200</h>
+      <h>180</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-
 </panel_attributes>
-    <additional_attributes>40.0;10.0;10.0;180.0</additional_attributes>
+    <additional_attributes>40.0;10.0;10.0;160.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>560</x>
-      <y>310</y>
+      <y>330</y>
       <w>140</w>
-      <h>200</h>
+      <h>180</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-
 </panel_attributes>
-    <additional_attributes>10.0;10.0;120.0;180.0</additional_attributes>
+    <additional_attributes>10.0;10.0;120.0;160.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
