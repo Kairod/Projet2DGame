@@ -4,9 +4,9 @@
     <id>UMLClass</id>
     <coordinates>
       <x>624</x>
-      <y>0</y>
+      <y>16</y>
       <w>216</w>
-      <h>152</h>
+      <h>136</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Abstract&gt;&gt;
 Element
@@ -34,7 +34,7 @@ Entity
 --
 # dx, dy : float
 # direction : Direction 
-# fliendly : bool
+# friendly : bool
 --
 + Entity()
 + setSettings(out a: Animation, x: int, y: int, direction: Direction): void
@@ -212,9 +212,9 @@ Enemy
     <id>UMLClass</id>
     <coordinates>
       <x>216</x>
-      <y>16</y>
+      <y>56</y>
       <w>168</w>
-      <h>152</h>
+      <h>112</h>
     </coordinates>
     <panel_attributes>&lt;&lt;enum&gt;&gt;
 Direction
@@ -250,6 +250,7 @@ DROITE</panel_attributes>
 - life: int
 --
 + DestructableDecor()
++ takeDamage(damage: int):
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -353,9 +354,9 @@ MoveableDecor
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>968</x>
+      <x>936</x>
       <y>808</y>
-      <w>168</w>
+      <w>200</w>
       <h>152</h>
     </coordinates>
     <panel_attributes>MoveDestructDecor
@@ -372,7 +373,7 @@ MoveableDecor
     <coordinates>
       <x>1168</x>
       <y>808</y>
-      <w>168</w>
+      <w>200</w>
       <h>152</h>
     </coordinates>
     <panel_attributes>MoveIndestructDecor
