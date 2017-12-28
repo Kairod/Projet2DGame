@@ -5,6 +5,7 @@
 #ifndef DEV_DIRECTION_H
 #define DEV_DIRECTION_H
 
+#include <cstdlib>
 
 enum class Direction {
     UP,

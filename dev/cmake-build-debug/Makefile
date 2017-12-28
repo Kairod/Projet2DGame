@@ -123,6 +123,438 @@ dev/fast:
 	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/build
 .PHONY : dev/fast
 
+Animation.o: Animation.cpp.o
+
+.PHONY : Animation.o
+
+# target to build an object file
+Animation.cpp.o:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Animation.cpp.o
+.PHONY : Animation.cpp.o
+
+Animation.i: Animation.cpp.i
+
+.PHONY : Animation.i
+
+# target to preprocess a source file
+Animation.cpp.i:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Animation.cpp.i
+.PHONY : Animation.cpp.i
+
+Animation.s: Animation.cpp.s
+
+.PHONY : Animation.s
+
+# target to generate assembly for a file
+Animation.cpp.s:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Animation.cpp.s
+.PHONY : Animation.cpp.s
+
+Decors.o: Decors.cpp.o
+
+.PHONY : Decors.o
+
+# target to build an object file
+Decors.cpp.o:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Decors.cpp.o
+.PHONY : Decors.cpp.o
+
+Decors.i: Decors.cpp.i
+
+.PHONY : Decors.i
+
+# target to preprocess a source file
+Decors.cpp.i:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Decors.cpp.i
+.PHONY : Decors.cpp.i
+
+Decors.s: Decors.cpp.s
+
+.PHONY : Decors.s
+
+# target to generate assembly for a file
+Decors.cpp.s:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Decors.cpp.s
+.PHONY : Decors.cpp.s
+
+DestructibleDecor.o: DestructibleDecor.cpp.o
+
+.PHONY : DestructibleDecor.o
+
+# target to build an object file
+DestructibleDecor.cpp.o:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/DestructibleDecor.cpp.o
+.PHONY : DestructibleDecor.cpp.o
+
+DestructibleDecor.i: DestructibleDecor.cpp.i
+
+.PHONY : DestructibleDecor.i
+
+# target to preprocess a source file
+DestructibleDecor.cpp.i:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/DestructibleDecor.cpp.i
+.PHONY : DestructibleDecor.cpp.i
+
+DestructibleDecor.s: DestructibleDecor.cpp.s
+
+.PHONY : DestructibleDecor.s
+
+# target to generate assembly for a file
+DestructibleDecor.cpp.s:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/DestructibleDecor.cpp.s
+.PHONY : DestructibleDecor.cpp.s
+
+Direction.o: Direction.cpp.o
+
+.PHONY : Direction.o
+
+# target to build an object file
+Direction.cpp.o:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Direction.cpp.o
+.PHONY : Direction.cpp.o
+
+Direction.i: Direction.cpp.i
+
+.PHONY : Direction.i
+
+# target to preprocess a source file
+Direction.cpp.i:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Direction.cpp.i
+.PHONY : Direction.cpp.i
+
+Direction.s: Direction.cpp.s
+
+.PHONY : Direction.s
+
+# target to generate assembly for a file
+Direction.cpp.s:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Direction.cpp.s
+.PHONY : Direction.cpp.s
+
+Element.o: Element.cpp.o
+
+.PHONY : Element.o
+
+# target to build an object file
+Element.cpp.o:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Element.cpp.o
+.PHONY : Element.cpp.o
+
+Element.i: Element.cpp.i
+
+.PHONY : Element.i
+
+# target to preprocess a source file
+Element.cpp.i:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Element.cpp.i
+.PHONY : Element.cpp.i
+
+Element.s: Element.cpp.s
+
+.PHONY : Element.s
+
+# target to generate assembly for a file
+Element.cpp.s:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Element.cpp.s
+.PHONY : Element.cpp.s
+
+Enemy.o: Enemy.cpp.o
+
+.PHONY : Enemy.o
+
+# target to build an object file
+Enemy.cpp.o:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Enemy.cpp.o
+.PHONY : Enemy.cpp.o
+
+Enemy.i: Enemy.cpp.i
+
+.PHONY : Enemy.i
+
+# target to preprocess a source file
+Enemy.cpp.i:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Enemy.cpp.i
+.PHONY : Enemy.cpp.i
+
+Enemy.s: Enemy.cpp.s
+
+.PHONY : Enemy.s
+
+# target to generate assembly for a file
+Enemy.cpp.s:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Enemy.cpp.s
+.PHONY : Enemy.cpp.s
+
+Entity.o: Entity.cpp.o
+
+.PHONY : Entity.o
+
+# target to build an object file
+Entity.cpp.o:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Entity.cpp.o
+.PHONY : Entity.cpp.o
+
+Entity.i: Entity.cpp.i
+
+.PHONY : Entity.i
+
+# target to preprocess a source file
+Entity.cpp.i:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Entity.cpp.i
+.PHONY : Entity.cpp.i
+
+Entity.s: Entity.cpp.s
+
+.PHONY : Entity.s
+
+# target to generate assembly for a file
+Entity.cpp.s:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Entity.cpp.s
+.PHONY : Entity.cpp.s
+
+Fighter.o: Fighter.cpp.o
+
+.PHONY : Fighter.o
+
+# target to build an object file
+Fighter.cpp.o:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Fighter.cpp.o
+.PHONY : Fighter.cpp.o
+
+Fighter.i: Fighter.cpp.i
+
+.PHONY : Fighter.i
+
+# target to preprocess a source file
+Fighter.cpp.i:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Fighter.cpp.i
+.PHONY : Fighter.cpp.i
+
+Fighter.s: Fighter.cpp.s
+
+.PHONY : Fighter.s
+
+# target to generate assembly for a file
+Fighter.cpp.s:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Fighter.cpp.s
+.PHONY : Fighter.cpp.s
+
+IndestructableDecor.o: IndestructableDecor.cpp.o
+
+.PHONY : IndestructableDecor.o
+
+# target to build an object file
+IndestructableDecor.cpp.o:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/IndestructableDecor.cpp.o
+.PHONY : IndestructableDecor.cpp.o
+
+IndestructableDecor.i: IndestructableDecor.cpp.i
+
+.PHONY : IndestructableDecor.i
+
+# target to preprocess a source file
+IndestructableDecor.cpp.i:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/IndestructableDecor.cpp.i
+.PHONY : IndestructableDecor.cpp.i
+
+IndestructableDecor.s: IndestructableDecor.cpp.s
+
+.PHONY : IndestructableDecor.s
+
+# target to generate assembly for a file
+IndestructableDecor.cpp.s:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/IndestructableDecor.cpp.s
+.PHONY : IndestructableDecor.cpp.s
+
+MoveDestructDecor.o: MoveDestructDecor.cpp.o
+
+.PHONY : MoveDestructDecor.o
+
+# target to build an object file
+MoveDestructDecor.cpp.o:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/MoveDestructDecor.cpp.o
+.PHONY : MoveDestructDecor.cpp.o
+
+MoveDestructDecor.i: MoveDestructDecor.cpp.i
+
+.PHONY : MoveDestructDecor.i
+
+# target to preprocess a source file
+MoveDestructDecor.cpp.i:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/MoveDestructDecor.cpp.i
+.PHONY : MoveDestructDecor.cpp.i
+
+MoveDestructDecor.s: MoveDestructDecor.cpp.s
+
+.PHONY : MoveDestructDecor.s
+
+# target to generate assembly for a file
+MoveDestructDecor.cpp.s:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/MoveDestructDecor.cpp.s
+.PHONY : MoveDestructDecor.cpp.s
+
+MoveIndestructDecor.o: MoveIndestructDecor.cpp.o
+
+.PHONY : MoveIndestructDecor.o
+
+# target to build an object file
+MoveIndestructDecor.cpp.o:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/MoveIndestructDecor.cpp.o
+.PHONY : MoveIndestructDecor.cpp.o
+
+MoveIndestructDecor.i: MoveIndestructDecor.cpp.i
+
+.PHONY : MoveIndestructDecor.i
+
+# target to preprocess a source file
+MoveIndestructDecor.cpp.i:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/MoveIndestructDecor.cpp.i
+.PHONY : MoveIndestructDecor.cpp.i
+
+MoveIndestructDecor.s: MoveIndestructDecor.cpp.s
+
+.PHONY : MoveIndestructDecor.s
+
+# target to generate assembly for a file
+MoveIndestructDecor.cpp.s:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/MoveIndestructDecor.cpp.s
+.PHONY : MoveIndestructDecor.cpp.s
+
+MoveableDecor.o: MoveableDecor.cpp.o
+
+.PHONY : MoveableDecor.o
+
+# target to build an object file
+MoveableDecor.cpp.o:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/MoveableDecor.cpp.o
+.PHONY : MoveableDecor.cpp.o
+
+MoveableDecor.i: MoveableDecor.cpp.i
+
+.PHONY : MoveableDecor.i
+
+# target to preprocess a source file
+MoveableDecor.cpp.i:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/MoveableDecor.cpp.i
+.PHONY : MoveableDecor.cpp.i
+
+MoveableDecor.s: MoveableDecor.cpp.s
+
+.PHONY : MoveableDecor.s
+
+# target to generate assembly for a file
+MoveableDecor.cpp.s:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/MoveableDecor.cpp.s
+.PHONY : MoveableDecor.cpp.s
+
+Personnage.o: Personnage.cpp.o
+
+.PHONY : Personnage.o
+
+# target to build an object file
+Personnage.cpp.o:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Personnage.cpp.o
+.PHONY : Personnage.cpp.o
+
+Personnage.i: Personnage.cpp.i
+
+.PHONY : Personnage.i
+
+# target to preprocess a source file
+Personnage.cpp.i:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Personnage.cpp.i
+.PHONY : Personnage.cpp.i
+
+Personnage.s: Personnage.cpp.s
+
+.PHONY : Personnage.s
+
+# target to generate assembly for a file
+Personnage.cpp.s:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Personnage.cpp.s
+.PHONY : Personnage.cpp.s
+
+Projectile.o: Projectile.cpp.o
+
+.PHONY : Projectile.o
+
+# target to build an object file
+Projectile.cpp.o:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Projectile.cpp.o
+.PHONY : Projectile.cpp.o
+
+Projectile.i: Projectile.cpp.i
+
+.PHONY : Projectile.i
+
+# target to preprocess a source file
+Projectile.cpp.i:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Projectile.cpp.i
+.PHONY : Projectile.cpp.i
+
+Projectile.s: Projectile.cpp.s
+
+.PHONY : Projectile.s
+
+# target to generate assembly for a file
+Projectile.cpp.s:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Projectile.cpp.s
+.PHONY : Projectile.cpp.s
+
+Shooter.o: Shooter.cpp.o
+
+.PHONY : Shooter.o
+
+# target to build an object file
+Shooter.cpp.o:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Shooter.cpp.o
+.PHONY : Shooter.cpp.o
+
+Shooter.i: Shooter.cpp.i
+
+.PHONY : Shooter.i
+
+# target to preprocess a source file
+Shooter.cpp.i:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Shooter.cpp.i
+.PHONY : Shooter.cpp.i
+
+Shooter.s: Shooter.cpp.s
+
+.PHONY : Shooter.s
+
+# target to generate assembly for a file
+Shooter.cpp.s:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Shooter.cpp.s
+.PHONY : Shooter.cpp.s
+
+Stats.o: Stats.cpp.o
+
+.PHONY : Stats.o
+
+# target to build an object file
+Stats.cpp.o:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Stats.cpp.o
+.PHONY : Stats.cpp.o
+
+Stats.i: Stats.cpp.i
+
+.PHONY : Stats.i
+
+# target to preprocess a source file
+Stats.cpp.i:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Stats.cpp.i
+.PHONY : Stats.cpp.i
+
+Stats.s: Stats.cpp.s
+
+.PHONY : Stats.s
+
+# target to generate assembly for a file
+Stats.cpp.s:
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Stats.cpp.s
+.PHONY : Stats.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +591,54 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... dev"
+	@echo "... Animation.o"
+	@echo "... Animation.i"
+	@echo "... Animation.s"
+	@echo "... Decors.o"
+	@echo "... Decors.i"
+	@echo "... Decors.s"
+	@echo "... DestructibleDecor.o"
+	@echo "... DestructibleDecor.i"
+	@echo "... DestructibleDecor.s"
+	@echo "... Direction.o"
+	@echo "... Direction.i"
+	@echo "... Direction.s"
+	@echo "... Element.o"
+	@echo "... Element.i"
+	@echo "... Element.s"
+	@echo "... Enemy.o"
+	@echo "... Enemy.i"
+	@echo "... Enemy.s"
+	@echo "... Entity.o"
+	@echo "... Entity.i"
+	@echo "... Entity.s"
+	@echo "... Fighter.o"
+	@echo "... Fighter.i"
+	@echo "... Fighter.s"
+	@echo "... IndestructableDecor.o"
+	@echo "... IndestructableDecor.i"
+	@echo "... IndestructableDecor.s"
+	@echo "... MoveDestructDecor.o"
+	@echo "... MoveDestructDecor.i"
+	@echo "... MoveDestructDecor.s"
+	@echo "... MoveIndestructDecor.o"
+	@echo "... MoveIndestructDecor.i"
+	@echo "... MoveIndestructDecor.s"
+	@echo "... MoveableDecor.o"
+	@echo "... MoveableDecor.i"
+	@echo "... MoveableDecor.s"
+	@echo "... Personnage.o"
+	@echo "... Personnage.i"
+	@echo "... Personnage.s"
+	@echo "... Projectile.o"
+	@echo "... Projectile.i"
+	@echo "... Projectile.s"
+	@echo "... Shooter.o"
+	@echo "... Shooter.i"
+	@echo "... Shooter.s"
+	@echo "... Stats.o"
+	@echo "... Stats.i"
+	@echo "... Stats.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -6,6 +6,11 @@
 
 using namespace std;
 
+// todo check virtual for virtual methods
+// todo check virtual for virtual destructor
+// todo check getter and setter for each class
+// todo check all shoot() are grat implemented
+
 int main(int argv, char **argc) {
 
     // creat windows

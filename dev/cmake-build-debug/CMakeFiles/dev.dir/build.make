@@ -81,14 +81,430 @@ CMakeFiles/dev.dir/main.cpp.o.provides: CMakeFiles/dev.dir/main.cpp.o.requires
 CMakeFiles/dev.dir/main.cpp.o.provides.build: CMakeFiles/dev.dir/main.cpp.o
 
 
+CMakeFiles/dev.dir/Element.cpp.o: CMakeFiles/dev.dir/flags.make
+CMakeFiles/dev.dir/Element.cpp.o: ../Element.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kairod/github/Projet2DGame/dev/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/dev.dir/Element.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dev.dir/Element.cpp.o -c /home/kairod/github/Projet2DGame/dev/Element.cpp
+
+CMakeFiles/dev.dir/Element.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dev.dir/Element.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kairod/github/Projet2DGame/dev/Element.cpp > CMakeFiles/dev.dir/Element.cpp.i
+
+CMakeFiles/dev.dir/Element.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dev.dir/Element.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kairod/github/Projet2DGame/dev/Element.cpp -o CMakeFiles/dev.dir/Element.cpp.s
+
+CMakeFiles/dev.dir/Element.cpp.o.requires:
+
+.PHONY : CMakeFiles/dev.dir/Element.cpp.o.requires
+
+CMakeFiles/dev.dir/Element.cpp.o.provides: CMakeFiles/dev.dir/Element.cpp.o.requires
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Element.cpp.o.provides.build
+.PHONY : CMakeFiles/dev.dir/Element.cpp.o.provides
+
+CMakeFiles/dev.dir/Element.cpp.o.provides.build: CMakeFiles/dev.dir/Element.cpp.o
+
+
+CMakeFiles/dev.dir/Entity.cpp.o: CMakeFiles/dev.dir/flags.make
+CMakeFiles/dev.dir/Entity.cpp.o: ../Entity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kairod/github/Projet2DGame/dev/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/dev.dir/Entity.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dev.dir/Entity.cpp.o -c /home/kairod/github/Projet2DGame/dev/Entity.cpp
+
+CMakeFiles/dev.dir/Entity.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dev.dir/Entity.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kairod/github/Projet2DGame/dev/Entity.cpp > CMakeFiles/dev.dir/Entity.cpp.i
+
+CMakeFiles/dev.dir/Entity.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dev.dir/Entity.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kairod/github/Projet2DGame/dev/Entity.cpp -o CMakeFiles/dev.dir/Entity.cpp.s
+
+CMakeFiles/dev.dir/Entity.cpp.o.requires:
+
+.PHONY : CMakeFiles/dev.dir/Entity.cpp.o.requires
+
+CMakeFiles/dev.dir/Entity.cpp.o.provides: CMakeFiles/dev.dir/Entity.cpp.o.requires
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Entity.cpp.o.provides.build
+.PHONY : CMakeFiles/dev.dir/Entity.cpp.o.provides
+
+CMakeFiles/dev.dir/Entity.cpp.o.provides.build: CMakeFiles/dev.dir/Entity.cpp.o
+
+
+CMakeFiles/dev.dir/Personnage.cpp.o: CMakeFiles/dev.dir/flags.make
+CMakeFiles/dev.dir/Personnage.cpp.o: ../Personnage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kairod/github/Projet2DGame/dev/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/dev.dir/Personnage.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dev.dir/Personnage.cpp.o -c /home/kairod/github/Projet2DGame/dev/Personnage.cpp
+
+CMakeFiles/dev.dir/Personnage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dev.dir/Personnage.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kairod/github/Projet2DGame/dev/Personnage.cpp > CMakeFiles/dev.dir/Personnage.cpp.i
+
+CMakeFiles/dev.dir/Personnage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dev.dir/Personnage.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kairod/github/Projet2DGame/dev/Personnage.cpp -o CMakeFiles/dev.dir/Personnage.cpp.s
+
+CMakeFiles/dev.dir/Personnage.cpp.o.requires:
+
+.PHONY : CMakeFiles/dev.dir/Personnage.cpp.o.requires
+
+CMakeFiles/dev.dir/Personnage.cpp.o.provides: CMakeFiles/dev.dir/Personnage.cpp.o.requires
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Personnage.cpp.o.provides.build
+.PHONY : CMakeFiles/dev.dir/Personnage.cpp.o.provides
+
+CMakeFiles/dev.dir/Personnage.cpp.o.provides.build: CMakeFiles/dev.dir/Personnage.cpp.o
+
+
+CMakeFiles/dev.dir/Stats.cpp.o: CMakeFiles/dev.dir/flags.make
+CMakeFiles/dev.dir/Stats.cpp.o: ../Stats.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kairod/github/Projet2DGame/dev/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/dev.dir/Stats.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dev.dir/Stats.cpp.o -c /home/kairod/github/Projet2DGame/dev/Stats.cpp
+
+CMakeFiles/dev.dir/Stats.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dev.dir/Stats.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kairod/github/Projet2DGame/dev/Stats.cpp > CMakeFiles/dev.dir/Stats.cpp.i
+
+CMakeFiles/dev.dir/Stats.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dev.dir/Stats.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kairod/github/Projet2DGame/dev/Stats.cpp -o CMakeFiles/dev.dir/Stats.cpp.s
+
+CMakeFiles/dev.dir/Stats.cpp.o.requires:
+
+.PHONY : CMakeFiles/dev.dir/Stats.cpp.o.requires
+
+CMakeFiles/dev.dir/Stats.cpp.o.provides: CMakeFiles/dev.dir/Stats.cpp.o.requires
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Stats.cpp.o.provides.build
+.PHONY : CMakeFiles/dev.dir/Stats.cpp.o.provides
+
+CMakeFiles/dev.dir/Stats.cpp.o.provides.build: CMakeFiles/dev.dir/Stats.cpp.o
+
+
+CMakeFiles/dev.dir/Direction.cpp.o: CMakeFiles/dev.dir/flags.make
+CMakeFiles/dev.dir/Direction.cpp.o: ../Direction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kairod/github/Projet2DGame/dev/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/dev.dir/Direction.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dev.dir/Direction.cpp.o -c /home/kairod/github/Projet2DGame/dev/Direction.cpp
+
+CMakeFiles/dev.dir/Direction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dev.dir/Direction.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kairod/github/Projet2DGame/dev/Direction.cpp > CMakeFiles/dev.dir/Direction.cpp.i
+
+CMakeFiles/dev.dir/Direction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dev.dir/Direction.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kairod/github/Projet2DGame/dev/Direction.cpp -o CMakeFiles/dev.dir/Direction.cpp.s
+
+CMakeFiles/dev.dir/Direction.cpp.o.requires:
+
+.PHONY : CMakeFiles/dev.dir/Direction.cpp.o.requires
+
+CMakeFiles/dev.dir/Direction.cpp.o.provides: CMakeFiles/dev.dir/Direction.cpp.o.requires
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Direction.cpp.o.provides.build
+.PHONY : CMakeFiles/dev.dir/Direction.cpp.o.provides
+
+CMakeFiles/dev.dir/Direction.cpp.o.provides.build: CMakeFiles/dev.dir/Direction.cpp.o
+
+
+CMakeFiles/dev.dir/Animation.cpp.o: CMakeFiles/dev.dir/flags.make
+CMakeFiles/dev.dir/Animation.cpp.o: ../Animation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kairod/github/Projet2DGame/dev/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/dev.dir/Animation.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dev.dir/Animation.cpp.o -c /home/kairod/github/Projet2DGame/dev/Animation.cpp
+
+CMakeFiles/dev.dir/Animation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dev.dir/Animation.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kairod/github/Projet2DGame/dev/Animation.cpp > CMakeFiles/dev.dir/Animation.cpp.i
+
+CMakeFiles/dev.dir/Animation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dev.dir/Animation.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kairod/github/Projet2DGame/dev/Animation.cpp -o CMakeFiles/dev.dir/Animation.cpp.s
+
+CMakeFiles/dev.dir/Animation.cpp.o.requires:
+
+.PHONY : CMakeFiles/dev.dir/Animation.cpp.o.requires
+
+CMakeFiles/dev.dir/Animation.cpp.o.provides: CMakeFiles/dev.dir/Animation.cpp.o.requires
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Animation.cpp.o.provides.build
+.PHONY : CMakeFiles/dev.dir/Animation.cpp.o.provides
+
+CMakeFiles/dev.dir/Animation.cpp.o.provides.build: CMakeFiles/dev.dir/Animation.cpp.o
+
+
+CMakeFiles/dev.dir/Decors.cpp.o: CMakeFiles/dev.dir/flags.make
+CMakeFiles/dev.dir/Decors.cpp.o: ../Decors.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kairod/github/Projet2DGame/dev/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/dev.dir/Decors.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dev.dir/Decors.cpp.o -c /home/kairod/github/Projet2DGame/dev/Decors.cpp
+
+CMakeFiles/dev.dir/Decors.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dev.dir/Decors.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kairod/github/Projet2DGame/dev/Decors.cpp > CMakeFiles/dev.dir/Decors.cpp.i
+
+CMakeFiles/dev.dir/Decors.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dev.dir/Decors.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kairod/github/Projet2DGame/dev/Decors.cpp -o CMakeFiles/dev.dir/Decors.cpp.s
+
+CMakeFiles/dev.dir/Decors.cpp.o.requires:
+
+.PHONY : CMakeFiles/dev.dir/Decors.cpp.o.requires
+
+CMakeFiles/dev.dir/Decors.cpp.o.provides: CMakeFiles/dev.dir/Decors.cpp.o.requires
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Decors.cpp.o.provides.build
+.PHONY : CMakeFiles/dev.dir/Decors.cpp.o.provides
+
+CMakeFiles/dev.dir/Decors.cpp.o.provides.build: CMakeFiles/dev.dir/Decors.cpp.o
+
+
+CMakeFiles/dev.dir/IndestructableDecor.cpp.o: CMakeFiles/dev.dir/flags.make
+CMakeFiles/dev.dir/IndestructableDecor.cpp.o: ../IndestructableDecor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kairod/github/Projet2DGame/dev/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/dev.dir/IndestructableDecor.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dev.dir/IndestructableDecor.cpp.o -c /home/kairod/github/Projet2DGame/dev/IndestructableDecor.cpp
+
+CMakeFiles/dev.dir/IndestructableDecor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dev.dir/IndestructableDecor.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kairod/github/Projet2DGame/dev/IndestructableDecor.cpp > CMakeFiles/dev.dir/IndestructableDecor.cpp.i
+
+CMakeFiles/dev.dir/IndestructableDecor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dev.dir/IndestructableDecor.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kairod/github/Projet2DGame/dev/IndestructableDecor.cpp -o CMakeFiles/dev.dir/IndestructableDecor.cpp.s
+
+CMakeFiles/dev.dir/IndestructableDecor.cpp.o.requires:
+
+.PHONY : CMakeFiles/dev.dir/IndestructableDecor.cpp.o.requires
+
+CMakeFiles/dev.dir/IndestructableDecor.cpp.o.provides: CMakeFiles/dev.dir/IndestructableDecor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/IndestructableDecor.cpp.o.provides.build
+.PHONY : CMakeFiles/dev.dir/IndestructableDecor.cpp.o.provides
+
+CMakeFiles/dev.dir/IndestructableDecor.cpp.o.provides.build: CMakeFiles/dev.dir/IndestructableDecor.cpp.o
+
+
+CMakeFiles/dev.dir/DestructibleDecor.cpp.o: CMakeFiles/dev.dir/flags.make
+CMakeFiles/dev.dir/DestructibleDecor.cpp.o: ../DestructibleDecor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kairod/github/Projet2DGame/dev/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/dev.dir/DestructibleDecor.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dev.dir/DestructibleDecor.cpp.o -c /home/kairod/github/Projet2DGame/dev/DestructibleDecor.cpp
+
+CMakeFiles/dev.dir/DestructibleDecor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dev.dir/DestructibleDecor.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kairod/github/Projet2DGame/dev/DestructibleDecor.cpp > CMakeFiles/dev.dir/DestructibleDecor.cpp.i
+
+CMakeFiles/dev.dir/DestructibleDecor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dev.dir/DestructibleDecor.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kairod/github/Projet2DGame/dev/DestructibleDecor.cpp -o CMakeFiles/dev.dir/DestructibleDecor.cpp.s
+
+CMakeFiles/dev.dir/DestructibleDecor.cpp.o.requires:
+
+.PHONY : CMakeFiles/dev.dir/DestructibleDecor.cpp.o.requires
+
+CMakeFiles/dev.dir/DestructibleDecor.cpp.o.provides: CMakeFiles/dev.dir/DestructibleDecor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/DestructibleDecor.cpp.o.provides.build
+.PHONY : CMakeFiles/dev.dir/DestructibleDecor.cpp.o.provides
+
+CMakeFiles/dev.dir/DestructibleDecor.cpp.o.provides.build: CMakeFiles/dev.dir/DestructibleDecor.cpp.o
+
+
+CMakeFiles/dev.dir/Enemy.cpp.o: CMakeFiles/dev.dir/flags.make
+CMakeFiles/dev.dir/Enemy.cpp.o: ../Enemy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kairod/github/Projet2DGame/dev/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/dev.dir/Enemy.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dev.dir/Enemy.cpp.o -c /home/kairod/github/Projet2DGame/dev/Enemy.cpp
+
+CMakeFiles/dev.dir/Enemy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dev.dir/Enemy.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kairod/github/Projet2DGame/dev/Enemy.cpp > CMakeFiles/dev.dir/Enemy.cpp.i
+
+CMakeFiles/dev.dir/Enemy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dev.dir/Enemy.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kairod/github/Projet2DGame/dev/Enemy.cpp -o CMakeFiles/dev.dir/Enemy.cpp.s
+
+CMakeFiles/dev.dir/Enemy.cpp.o.requires:
+
+.PHONY : CMakeFiles/dev.dir/Enemy.cpp.o.requires
+
+CMakeFiles/dev.dir/Enemy.cpp.o.provides: CMakeFiles/dev.dir/Enemy.cpp.o.requires
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Enemy.cpp.o.provides.build
+.PHONY : CMakeFiles/dev.dir/Enemy.cpp.o.provides
+
+CMakeFiles/dev.dir/Enemy.cpp.o.provides.build: CMakeFiles/dev.dir/Enemy.cpp.o
+
+
+CMakeFiles/dev.dir/Fighter.cpp.o: CMakeFiles/dev.dir/flags.make
+CMakeFiles/dev.dir/Fighter.cpp.o: ../Fighter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kairod/github/Projet2DGame/dev/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/dev.dir/Fighter.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dev.dir/Fighter.cpp.o -c /home/kairod/github/Projet2DGame/dev/Fighter.cpp
+
+CMakeFiles/dev.dir/Fighter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dev.dir/Fighter.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kairod/github/Projet2DGame/dev/Fighter.cpp > CMakeFiles/dev.dir/Fighter.cpp.i
+
+CMakeFiles/dev.dir/Fighter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dev.dir/Fighter.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kairod/github/Projet2DGame/dev/Fighter.cpp -o CMakeFiles/dev.dir/Fighter.cpp.s
+
+CMakeFiles/dev.dir/Fighter.cpp.o.requires:
+
+.PHONY : CMakeFiles/dev.dir/Fighter.cpp.o.requires
+
+CMakeFiles/dev.dir/Fighter.cpp.o.provides: CMakeFiles/dev.dir/Fighter.cpp.o.requires
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Fighter.cpp.o.provides.build
+.PHONY : CMakeFiles/dev.dir/Fighter.cpp.o.provides
+
+CMakeFiles/dev.dir/Fighter.cpp.o.provides.build: CMakeFiles/dev.dir/Fighter.cpp.o
+
+
+CMakeFiles/dev.dir/Shooter.cpp.o: CMakeFiles/dev.dir/flags.make
+CMakeFiles/dev.dir/Shooter.cpp.o: ../Shooter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kairod/github/Projet2DGame/dev/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/dev.dir/Shooter.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dev.dir/Shooter.cpp.o -c /home/kairod/github/Projet2DGame/dev/Shooter.cpp
+
+CMakeFiles/dev.dir/Shooter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dev.dir/Shooter.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kairod/github/Projet2DGame/dev/Shooter.cpp > CMakeFiles/dev.dir/Shooter.cpp.i
+
+CMakeFiles/dev.dir/Shooter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dev.dir/Shooter.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kairod/github/Projet2DGame/dev/Shooter.cpp -o CMakeFiles/dev.dir/Shooter.cpp.s
+
+CMakeFiles/dev.dir/Shooter.cpp.o.requires:
+
+.PHONY : CMakeFiles/dev.dir/Shooter.cpp.o.requires
+
+CMakeFiles/dev.dir/Shooter.cpp.o.provides: CMakeFiles/dev.dir/Shooter.cpp.o.requires
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Shooter.cpp.o.provides.build
+.PHONY : CMakeFiles/dev.dir/Shooter.cpp.o.provides
+
+CMakeFiles/dev.dir/Shooter.cpp.o.provides.build: CMakeFiles/dev.dir/Shooter.cpp.o
+
+
+CMakeFiles/dev.dir/MoveableDecor.cpp.o: CMakeFiles/dev.dir/flags.make
+CMakeFiles/dev.dir/MoveableDecor.cpp.o: ../MoveableDecor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kairod/github/Projet2DGame/dev/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/dev.dir/MoveableDecor.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dev.dir/MoveableDecor.cpp.o -c /home/kairod/github/Projet2DGame/dev/MoveableDecor.cpp
+
+CMakeFiles/dev.dir/MoveableDecor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dev.dir/MoveableDecor.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kairod/github/Projet2DGame/dev/MoveableDecor.cpp > CMakeFiles/dev.dir/MoveableDecor.cpp.i
+
+CMakeFiles/dev.dir/MoveableDecor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dev.dir/MoveableDecor.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kairod/github/Projet2DGame/dev/MoveableDecor.cpp -o CMakeFiles/dev.dir/MoveableDecor.cpp.s
+
+CMakeFiles/dev.dir/MoveableDecor.cpp.o.requires:
+
+.PHONY : CMakeFiles/dev.dir/MoveableDecor.cpp.o.requires
+
+CMakeFiles/dev.dir/MoveableDecor.cpp.o.provides: CMakeFiles/dev.dir/MoveableDecor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/MoveableDecor.cpp.o.provides.build
+.PHONY : CMakeFiles/dev.dir/MoveableDecor.cpp.o.provides
+
+CMakeFiles/dev.dir/MoveableDecor.cpp.o.provides.build: CMakeFiles/dev.dir/MoveableDecor.cpp.o
+
+
+CMakeFiles/dev.dir/MoveDestructDecor.cpp.o: CMakeFiles/dev.dir/flags.make
+CMakeFiles/dev.dir/MoveDestructDecor.cpp.o: ../MoveDestructDecor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kairod/github/Projet2DGame/dev/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/dev.dir/MoveDestructDecor.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dev.dir/MoveDestructDecor.cpp.o -c /home/kairod/github/Projet2DGame/dev/MoveDestructDecor.cpp
+
+CMakeFiles/dev.dir/MoveDestructDecor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dev.dir/MoveDestructDecor.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kairod/github/Projet2DGame/dev/MoveDestructDecor.cpp > CMakeFiles/dev.dir/MoveDestructDecor.cpp.i
+
+CMakeFiles/dev.dir/MoveDestructDecor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dev.dir/MoveDestructDecor.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kairod/github/Projet2DGame/dev/MoveDestructDecor.cpp -o CMakeFiles/dev.dir/MoveDestructDecor.cpp.s
+
+CMakeFiles/dev.dir/MoveDestructDecor.cpp.o.requires:
+
+.PHONY : CMakeFiles/dev.dir/MoveDestructDecor.cpp.o.requires
+
+CMakeFiles/dev.dir/MoveDestructDecor.cpp.o.provides: CMakeFiles/dev.dir/MoveDestructDecor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/MoveDestructDecor.cpp.o.provides.build
+.PHONY : CMakeFiles/dev.dir/MoveDestructDecor.cpp.o.provides
+
+CMakeFiles/dev.dir/MoveDestructDecor.cpp.o.provides.build: CMakeFiles/dev.dir/MoveDestructDecor.cpp.o
+
+
+CMakeFiles/dev.dir/MoveIndestructDecor.cpp.o: CMakeFiles/dev.dir/flags.make
+CMakeFiles/dev.dir/MoveIndestructDecor.cpp.o: ../MoveIndestructDecor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kairod/github/Projet2DGame/dev/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/dev.dir/MoveIndestructDecor.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dev.dir/MoveIndestructDecor.cpp.o -c /home/kairod/github/Projet2DGame/dev/MoveIndestructDecor.cpp
+
+CMakeFiles/dev.dir/MoveIndestructDecor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dev.dir/MoveIndestructDecor.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kairod/github/Projet2DGame/dev/MoveIndestructDecor.cpp > CMakeFiles/dev.dir/MoveIndestructDecor.cpp.i
+
+CMakeFiles/dev.dir/MoveIndestructDecor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dev.dir/MoveIndestructDecor.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kairod/github/Projet2DGame/dev/MoveIndestructDecor.cpp -o CMakeFiles/dev.dir/MoveIndestructDecor.cpp.s
+
+CMakeFiles/dev.dir/MoveIndestructDecor.cpp.o.requires:
+
+.PHONY : CMakeFiles/dev.dir/MoveIndestructDecor.cpp.o.requires
+
+CMakeFiles/dev.dir/MoveIndestructDecor.cpp.o.provides: CMakeFiles/dev.dir/MoveIndestructDecor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/MoveIndestructDecor.cpp.o.provides.build
+.PHONY : CMakeFiles/dev.dir/MoveIndestructDecor.cpp.o.provides
+
+CMakeFiles/dev.dir/MoveIndestructDecor.cpp.o.provides.build: CMakeFiles/dev.dir/MoveIndestructDecor.cpp.o
+
+
+CMakeFiles/dev.dir/Projectile.cpp.o: CMakeFiles/dev.dir/flags.make
+CMakeFiles/dev.dir/Projectile.cpp.o: ../Projectile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kairod/github/Projet2DGame/dev/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/dev.dir/Projectile.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dev.dir/Projectile.cpp.o -c /home/kairod/github/Projet2DGame/dev/Projectile.cpp
+
+CMakeFiles/dev.dir/Projectile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dev.dir/Projectile.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kairod/github/Projet2DGame/dev/Projectile.cpp > CMakeFiles/dev.dir/Projectile.cpp.i
+
+CMakeFiles/dev.dir/Projectile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dev.dir/Projectile.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kairod/github/Projet2DGame/dev/Projectile.cpp -o CMakeFiles/dev.dir/Projectile.cpp.s
+
+CMakeFiles/dev.dir/Projectile.cpp.o.requires:
+
+.PHONY : CMakeFiles/dev.dir/Projectile.cpp.o.requires
+
+CMakeFiles/dev.dir/Projectile.cpp.o.provides: CMakeFiles/dev.dir/Projectile.cpp.o.requires
+	$(MAKE) -f CMakeFiles/dev.dir/build.make CMakeFiles/dev.dir/Projectile.cpp.o.provides.build
+.PHONY : CMakeFiles/dev.dir/Projectile.cpp.o.provides
+
+CMakeFiles/dev.dir/Projectile.cpp.o.provides.build: CMakeFiles/dev.dir/Projectile.cpp.o
+
+
 # Object files for target dev
 dev_OBJECTS = \
-"CMakeFiles/dev.dir/main.cpp.o"
+"CMakeFiles/dev.dir/main.cpp.o" \
+"CMakeFiles/dev.dir/Element.cpp.o" \
+"CMakeFiles/dev.dir/Entity.cpp.o" \
+"CMakeFiles/dev.dir/Personnage.cpp.o" \
+"CMakeFiles/dev.dir/Stats.cpp.o" \
+"CMakeFiles/dev.dir/Direction.cpp.o" \
+"CMakeFiles/dev.dir/Animation.cpp.o" \
+"CMakeFiles/dev.dir/Decors.cpp.o" \
+"CMakeFiles/dev.dir/IndestructableDecor.cpp.o" \
+"CMakeFiles/dev.dir/DestructibleDecor.cpp.o" \
+"CMakeFiles/dev.dir/Enemy.cpp.o" \
+"CMakeFiles/dev.dir/Fighter.cpp.o" \
+"CMakeFiles/dev.dir/Shooter.cpp.o" \
+"CMakeFiles/dev.dir/MoveableDecor.cpp.o" \
+"CMakeFiles/dev.dir/MoveDestructDecor.cpp.o" \
+"CMakeFiles/dev.dir/MoveIndestructDecor.cpp.o" \
+"CMakeFiles/dev.dir/Projectile.cpp.o"
 
 # External object files for target dev
 dev_EXTERNAL_OBJECTS =
 
 dev: CMakeFiles/dev.dir/main.cpp.o
+dev: CMakeFiles/dev.dir/Element.cpp.o
+dev: CMakeFiles/dev.dir/Entity.cpp.o
+dev: CMakeFiles/dev.dir/Personnage.cpp.o
+dev: CMakeFiles/dev.dir/Stats.cpp.o
+dev: CMakeFiles/dev.dir/Direction.cpp.o
+dev: CMakeFiles/dev.dir/Animation.cpp.o
+dev: CMakeFiles/dev.dir/Decors.cpp.o
+dev: CMakeFiles/dev.dir/IndestructableDecor.cpp.o
+dev: CMakeFiles/dev.dir/DestructibleDecor.cpp.o
+dev: CMakeFiles/dev.dir/Enemy.cpp.o
+dev: CMakeFiles/dev.dir/Fighter.cpp.o
+dev: CMakeFiles/dev.dir/Shooter.cpp.o
+dev: CMakeFiles/dev.dir/MoveableDecor.cpp.o
+dev: CMakeFiles/dev.dir/MoveDestructDecor.cpp.o
+dev: CMakeFiles/dev.dir/MoveIndestructDecor.cpp.o
+dev: CMakeFiles/dev.dir/Projectile.cpp.o
 dev: CMakeFiles/dev.dir/build.make
 dev: /usr/lib/x86_64-linux-gnu/libsfml-system.so
 dev: /usr/lib/x86_64-linux-gnu/libsfml-window.so
@@ -96,7 +512,7 @@ dev: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so
 dev: /usr/lib/x86_64-linux-gnu/libsfml-network.so
 dev: /usr/lib/x86_64-linux-gnu/libsfml-audio.so
 dev: CMakeFiles/dev.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kairod/github/Projet2DGame/dev/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable dev"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kairod/github/Projet2DGame/dev/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable dev"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dev.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -105,6 +521,22 @@ CMakeFiles/dev.dir/build: dev
 .PHONY : CMakeFiles/dev.dir/build
 
 CMakeFiles/dev.dir/requires: CMakeFiles/dev.dir/main.cpp.o.requires
+CMakeFiles/dev.dir/requires: CMakeFiles/dev.dir/Element.cpp.o.requires
+CMakeFiles/dev.dir/requires: CMakeFiles/dev.dir/Entity.cpp.o.requires
+CMakeFiles/dev.dir/requires: CMakeFiles/dev.dir/Personnage.cpp.o.requires
+CMakeFiles/dev.dir/requires: CMakeFiles/dev.dir/Stats.cpp.o.requires
+CMakeFiles/dev.dir/requires: CMakeFiles/dev.dir/Direction.cpp.o.requires
+CMakeFiles/dev.dir/requires: CMakeFiles/dev.dir/Animation.cpp.o.requires
+CMakeFiles/dev.dir/requires: CMakeFiles/dev.dir/Decors.cpp.o.requires
+CMakeFiles/dev.dir/requires: CMakeFiles/dev.dir/IndestructableDecor.cpp.o.requires
+CMakeFiles/dev.dir/requires: CMakeFiles/dev.dir/DestructibleDecor.cpp.o.requires
+CMakeFiles/dev.dir/requires: CMakeFiles/dev.dir/Enemy.cpp.o.requires
+CMakeFiles/dev.dir/requires: CMakeFiles/dev.dir/Fighter.cpp.o.requires
+CMakeFiles/dev.dir/requires: CMakeFiles/dev.dir/Shooter.cpp.o.requires
+CMakeFiles/dev.dir/requires: CMakeFiles/dev.dir/MoveableDecor.cpp.o.requires
+CMakeFiles/dev.dir/requires: CMakeFiles/dev.dir/MoveDestructDecor.cpp.o.requires
+CMakeFiles/dev.dir/requires: CMakeFiles/dev.dir/MoveIndestructDecor.cpp.o.requires
+CMakeFiles/dev.dir/requires: CMakeFiles/dev.dir/Projectile.cpp.o.requires
 
 .PHONY : CMakeFiles/dev.dir/requires
 

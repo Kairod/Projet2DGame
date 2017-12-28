@@ -84,6 +84,102 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/kairod/github/Projet2DGame/dev/Animation.cpp">
+			<Option target="dev"/>
+		</Unit>
+		<Unit filename="/home/kairod/github/Projet2DGame/dev/Animation.h">
+			<Option target="dev"/>
+		</Unit>
+		<Unit filename="/home/kairod/github/Projet2DGame/dev/Decors.cpp">
+			<Option target="dev"/>
+		</Unit>
+		<Unit filename="/home/kairod/github/Projet2DGame/dev/Decors.h">
+			<Option target="dev"/>
+		</Unit>
+		<Unit filename="/home/kairod/github/Projet2DGame/dev/DestructibleDecor.cpp">
+			<Option target="dev"/>
+		</Unit>
+		<Unit filename="/home/kairod/github/Projet2DGame/dev/DestructibleDecor.h">
+			<Option target="dev"/>
+		</Unit>
+		<Unit filename="/home/kairod/github/Projet2DGame/dev/Direction.cpp">
+			<Option target="dev"/>
+		</Unit>
+		<Unit filename="/home/kairod/github/Projet2DGame/dev/Direction.h">
+			<Option target="dev"/>
+		</Unit>
+		<Unit filename="/home/kairod/github/Projet2DGame/dev/Element.cpp">
+			<Option target="dev"/>
+		</Unit>
+		<Unit filename="/home/kairod/github/Projet2DGame/dev/Element.h">
+			<Option target="dev"/>
+		</Unit>
+		<Unit filename="/home/kairod/github/Projet2DGame/dev/Enemy.cpp">
+			<Option target="dev"/>
+		</Unit>
+		<Unit filename="/home/kairod/github/Projet2DGame/dev/Enemy.h">
+			<Option target="dev"/>
+		</Unit>
+		<Unit filename="/home/kairod/github/Projet2DGame/dev/Entity.cpp">
+			<Option target="dev"/>
+		</Unit>
+		<Unit filename="/home/kairod/github/Projet2DGame/dev/Entity.h">
+			<Option target="dev"/>
+		</Unit>
+		<Unit filename="/home/kairod/github/Projet2DGame/dev/Fighter.cpp">
+			<Option target="dev"/>
+		</Unit>
+		<Unit filename="/home/kairod/github/Projet2DGame/dev/Fighter.h">
+			<Option target="dev"/>
+		</Unit>
+		<Unit filename="/home/kairod/github/Projet2DGame/dev/IndestructableDecor.cpp">
+			<Option target="dev"/>
+		</Unit>
+		<Unit filename="/home/kairod/github/Projet2DGame/dev/IndestructableDecor.h">
+			<Option target="dev"/>
+		</Unit>
+		<Unit filename="/home/kairod/github/Projet2DGame/dev/MoveDestructDecor.cpp">
+			<Option target="dev"/>
+		</Unit>
+		<Unit filename="/home/kairod/github/Projet2DGame/dev/MoveDestructDecor.h">
+			<Option target="dev"/>
+		</Unit>
+		<Unit filename="/home/kairod/github/Projet2DGame/dev/MoveIndestructDecor.cpp">
+			<Option target="dev"/>
+		</Unit>
+		<Unit filename="/home/kairod/github/Projet2DGame/dev/MoveIndestructDecor.h">
+			<Option target="dev"/>
+		</Unit>
+		<Unit filename="/home/kairod/github/Projet2DGame/dev/MoveableDecor.cpp">
+			<Option target="dev"/>
+		</Unit>
+		<Unit filename="/home/kairod/github/Projet2DGame/dev/MoveableDecor.h">
+			<Option target="dev"/>
+		</Unit>
+		<Unit filename="/home/kairod/github/Projet2DGame/dev/Personnage.cpp">
+			<Option target="dev"/>
+		</Unit>
+		<Unit filename="/home/kairod/github/Projet2DGame/dev/Personnage.h">
+			<Option target="dev"/>
+		</Unit>
+		<Unit filename="/home/kairod/github/Projet2DGame/dev/Projectile.cpp">
+			<Option target="dev"/>
+		</Unit>
+		<Unit filename="/home/kairod/github/Projet2DGame/dev/Projectile.h">
+			<Option target="dev"/>
+		</Unit>
+		<Unit filename="/home/kairod/github/Projet2DGame/dev/Shooter.cpp">
+			<Option target="dev"/>
+		</Unit>
+		<Unit filename="/home/kairod/github/Projet2DGame/dev/Shooter.h">
+			<Option target="dev"/>
+		</Unit>
+		<Unit filename="/home/kairod/github/Projet2DGame/dev/Stats.cpp">
+			<Option target="dev"/>
+		</Unit>
+		<Unit filename="/home/kairod/github/Projet2DGame/dev/Stats.h">
+			<Option target="dev"/>
+		</Unit>
 		<Unit filename="/home/kairod/github/Projet2DGame/dev/main.cpp">
 			<Option target="dev"/>
 		</Unit>

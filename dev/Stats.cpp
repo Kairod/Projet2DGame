@@ -4,20 +4,18 @@
 
 #include "Stats.h"
 
-int Stats::get_lifePoint() const {
-    return _lifePoint;
+int Stats::getLifePoint() const {
+    return lifePoint;
 }
 
-void Stats::set_lifePoint(int _lifePoint) {
-    Stats::_lifePoint = _lifePoint;
+void Stats::setLifePoint(int lifePoint) {
+    Stats::lifePoint = lifePoint;
 }
 
-double Stats::get_moveSpeed() const {
-    return _moveSpeed;
+double Stats::getMoveSpeed() const {
+    return moveSpeed;
 }
 
-void Stats::set_moveSpeed(double _moveSpeed) {
-    Stats::_moveSpeed = _moveSpeed;
+void Stats::setMoveSpeed(double moveSpeed) {
+    Stats::moveSpeed = moveSpeed;
 }
-
-

@@ -5,22 +5,19 @@
 #ifndef DEV_STATS_H
 #define DEV_STATS_H
 
+#include <cstdlib>
+
 
 class Stats {
-public:
-    Stats(int lifePoint, double moveSpeed): _lifePoint(lifePoint), _moveSpeed(moveSpeed){}
-
-    int get_lifePoint() const;
-
-    void set_lifePoint(int _lifePoint);
-
-    double get_moveSpeed() const;
-
-    void set_moveSpeed(double _moveSpeed);
+    public:
+    int getLifePoint() const;
+    void setLifePoint(int lifePoint);
+    double getMoveSpeed() const;
+    void setMoveSpeed(double moveSpeed);
 
 private:
-    int _lifePoint;
-    double _moveSpeed;
+    int lifePoint;
+    double moveSpeed;
 };
 
 
