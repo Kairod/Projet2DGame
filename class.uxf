@@ -4,7 +4,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>624</x>
-      <y>16</y>
+      <y>0</y>
       <w>216</w>
       <h>136</h>
     </coordinates>
@@ -14,7 +14,7 @@ Element
 # x, y: float
 # collisionBox
 --
-+ Objet()
++ Element()
 + draw()
 /+ takeDamage(damage: int): void/
 
@@ -25,7 +25,7 @@ Element
     <id>UMLClass</id>
     <coordinates>
       <x>424</x>
-      <y>256</y>
+      <y>240</y>
       <w>408</w>
       <h>152</h>
     </coordinates>
@@ -45,7 +45,7 @@ Entity
     <id>UMLClass</id>
     <coordinates>
       <x>944</x>
-      <y>232</y>
+      <y>216</y>
       <w>168</w>
       <h>152</h>
     </coordinates>
@@ -61,7 +61,7 @@ Decors
     <id>Relation</id>
     <coordinates>
       <x>832</x>
-      <y>96</y>
+      <y>80</y>
       <w>168</w>
       <h>152</h>
     </coordinates>
@@ -72,7 +72,7 @@ Decors
     <id>Relation</id>
     <coordinates>
       <x>536</x>
-      <y>144</y>
+      <y>128</y>
       <w>120</w>
       <h>128</h>
     </coordinates>
@@ -83,7 +83,7 @@ Decors
     <id>UMLClass</id>
     <coordinates>
       <x>632</x>
-      <y>656</y>
+      <y>640</y>
       <w>224</w>
       <h>152</h>
     </coordinates>
@@ -91,18 +91,15 @@ Decors
 Enemy
 --
 - stats: Stats
-- direction : Direction
-- projectile: Projectile
 --
-+ Enemy()
-+ shoot(): projectile</panel_attributes>
++ Enemy()</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>568</x>
-      <y>400</y>
+      <y>384</y>
       <w>176</w>
       <h>272</h>
     </coordinates>
@@ -113,7 +110,7 @@ Enemy
     <id>UMLClass</id>
     <coordinates>
       <x>48</x>
-      <y>600</y>
+      <y>584</y>
       <w>240</w>
       <h>152</h>
     </coordinates>
@@ -123,8 +120,9 @@ Enemy
 --
 + Personnage()
 + takeDamage(damage: int): void
++ isAlive(): bool
 + update(): void
-+ shoot() : projectile
++ shoot() : out Projectile
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -132,7 +130,7 @@ Enemy
     <id>Relation</id>
     <coordinates>
       <x>224</x>
-      <y>400</y>
+      <y>384</y>
       <w>240</w>
       <h>216</h>
     </coordinates>
@@ -143,7 +141,7 @@ Enemy
     <id>UMLClass</id>
     <coordinates>
       <x>376</x>
-      <y>728</y>
+      <y>712</y>
       <w>168</w>
       <h>152</h>
     </coordinates>
@@ -160,16 +158,17 @@ Enemy
     <id>UMLClass</id>
     <coordinates>
       <x>0</x>
-      <y>288</y>
+      <y>272</y>
       <w>208</w>
       <h>152</h>
     </coordinates>
     <panel_attributes>Projectile
 --
-- degats : int
+- degat : int
 --
++ getDegat(): int
++ setDegat(degatValue: int): void
 + Projectile()
-+ takeDamage(damage: int): void
 + update(): void</panel_attributes>
     <additional_attributes/>
   </element>
@@ -177,7 +176,7 @@ Enemy
     <id>Relation</id>
     <coordinates>
       <x>200</x>
-      <y>336</y>
+      <y>320</y>
       <w>240</w>
       <h>56</h>
     </coordinates>
@@ -188,7 +187,7 @@ Enemy
     <id>Relation</id>
     <coordinates>
       <x>96</x>
-      <y>432</y>
+      <y>416</y>
       <w>128</w>
       <h>184</h>
     </coordinates>
@@ -200,7 +199,7 @@ Enemy
     <id>Relation</id>
     <coordinates>
       <x>8</x>
-      <y>432</y>
+      <y>416</y>
       <w>720</w>
       <h>696</h>
     </coordinates>
@@ -212,7 +211,7 @@ Enemy
     <id>UMLClass</id>
     <coordinates>
       <x>216</x>
-      <y>56</y>
+      <y>40</y>
       <w>168</w>
       <h>112</h>
     </coordinates>
@@ -229,7 +228,7 @@ DROITE</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>320</x>
-      <y>160</y>
+      <y>144</y>
       <w>120</w>
       <h>152</h>
     </coordinates>
@@ -241,7 +240,7 @@ DROITE</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>1280</x>
-      <y>480</y>
+      <y>464</y>
       <w>168</w>
       <h>72</h>
     </coordinates>
@@ -258,7 +257,7 @@ DROITE</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>1064</x>
-      <y>480</y>
+      <y>464</y>
       <w>168</w>
       <h>64</h>
     </coordinates>
@@ -272,7 +271,7 @@ DROITE</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1048</x>
-      <y>376</y>
+      <y>360</y>
       <w>64</w>
       <h>120</h>
     </coordinates>
@@ -283,7 +282,7 @@ DROITE</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1104</x>
-      <y>344</y>
+      <y>328</y>
       <w>248</w>
       <h>152</h>
     </coordinates>
@@ -294,7 +293,7 @@ DROITE</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>280</x>
-      <y>648</y>
+      <y>632</y>
       <w>112</w>
       <h>168</h>
     </coordinates>
@@ -306,7 +305,7 @@ DROITE</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>536</x>
-      <y>760</y>
+      <y>744</y>
       <w>112</w>
       <h>56</h>
     </coordinates>
@@ -318,7 +317,7 @@ DROITE</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>896</x>
-      <y>560</y>
+      <y>544</y>
       <w>168</w>
       <h>152</h>
     </coordinates>
@@ -333,7 +332,7 @@ MoveableDecor
     <id>Relation</id>
     <coordinates>
       <x>720</x>
-      <y>400</y>
+      <y>384</y>
       <w>216</w>
       <h>176</h>
     </coordinates>
@@ -344,7 +343,7 @@ MoveableDecor
     <id>Relation</id>
     <coordinates>
       <x>952</x>
-      <y>376</y>
+      <y>360</y>
       <w>64</w>
       <h>200</h>
     </coordinates>
@@ -355,7 +354,7 @@ MoveableDecor
     <id>UMLClass</id>
     <coordinates>
       <x>936</x>
-      <y>808</y>
+      <y>792</y>
       <w>200</w>
       <h>152</h>
     </coordinates>
@@ -372,7 +371,7 @@ MoveableDecor
     <id>UMLClass</id>
     <coordinates>
       <x>1168</x>
-      <y>808</y>
+      <y>792</y>
       <w>200</w>
       <h>152</h>
     </coordinates>
@@ -389,7 +388,7 @@ MoveableDecor
     <id>Relation</id>
     <coordinates>
       <x>968</x>
-      <y>704</y>
+      <y>688</y>
       <w>88</w>
       <h>120</h>
     </coordinates>
@@ -400,7 +399,7 @@ MoveableDecor
     <id>Relation</id>
     <coordinates>
       <x>1024</x>
-      <y>704</y>
+      <y>688</y>
       <w>224</w>
       <h>120</h>
     </coordinates>
@@ -411,7 +410,7 @@ MoveableDecor
     <id>UMLClass</id>
     <coordinates>
       <x>440</x>
-      <y>928</y>
+      <y>912</y>
       <w>224</w>
       <h>152</h>
     </coordinates>
@@ -428,7 +427,7 @@ MoveableDecor
     <id>UMLClass</id>
     <coordinates>
       <x>712</x>
-      <y>984</y>
+      <y>968</y>
       <w>224</w>
       <h>152</h>
     </coordinates>
@@ -446,7 +445,7 @@ MoveableDecor
     <id>Relation</id>
     <coordinates>
       <x>768</x>
-      <y>800</y>
+      <y>784</y>
       <w>64</w>
       <h>200</h>
     </coordinates>
@@ -457,7 +456,7 @@ MoveableDecor
     <id>Relation</id>
     <coordinates>
       <x>600</x>
-      <y>800</y>
+      <y>784</y>
       <w>112</w>
       <h>144</h>
     </coordinates>
@@ -468,7 +467,7 @@ MoveableDecor
     <id>UMLClass</id>
     <coordinates>
       <x>1104</x>
-      <y>16</y>
+      <y>0</y>
       <w>496</w>
       <h>136</h>
     </coordinates>
@@ -488,7 +487,7 @@ MoveableDecor
     <id>Relation</id>
     <coordinates>
       <x>832</x>
-      <y>56</y>
+      <y>40</y>
       <w>288</w>
       <h>32</h>
     </coordinates>
