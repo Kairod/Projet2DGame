@@ -31,6 +31,6 @@ bool Animation::isEnd() {
     return this->frame+this->speed>=this->frames.size();
 }
 
-sf::Sprite Animation::getSprite() const{
+sf::Sprite Animation::getSprite(){
   return this->sprite;
 };

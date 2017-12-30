@@ -20,7 +20,7 @@ class Animation {
         Animation(sf::Texture &texture, int x, int y, int width, int height, int count, float speedValue);
         void update();
         bool isEnd();
-        sf::Sprite getSprite() const;
+        sf::Sprite getSprite();
 };
 
 
