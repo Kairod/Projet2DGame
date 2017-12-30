@@ -6,20 +6,22 @@
 #define DEV_ENTITY_H
 
 
-#include "Object.h"
+#include "Element.h"
 #include "Direction.h"
+#include <cstdlib>
 
-class Entity : Object{
+class Entity : Element{
 
     protected:
-        bool userControl;
-        bool friendly;
+        float dx, dy;
         Direction direction;
+        bool friendly;
 
     public:
-        Entity();
-
-
+        Entity() = default;
+        void setSettings(Animation *a, int x, int y, Direction d);
+        virtual void update() const = 0;
+        virtual ~Entity() {}
 };
 
 
