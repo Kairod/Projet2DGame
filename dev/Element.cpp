@@ -5,7 +5,8 @@
 #include "Element.h"
 
 void Element::draw(sf::RenderWindow window) {
-    // todo
+  this->anim.getSprite().setPosition(this->x,this->y);
+  window.draw(this->anim.getSprite());
 }
 
 sf::FloatRect Element::getCollisionBox() const{
